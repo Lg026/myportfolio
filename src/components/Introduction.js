@@ -19,7 +19,6 @@ export const Introduction = () => {
   return (
     <>
       <h1 className={introStyles.title}>Hello, I'm Luis</h1>
-      <h1>Tests</h1>
       <p className={introStyles.p}>a junior web developer with a passion for creating interactive websites. I'm a self taught programmer, and I've spent countless hours honing my skills in React, HTML, CSS, and JavaScript. The challenge of turning a concept into a functioning website and the problem solving that comes with it is something I love. I'm always eager to learn and grow, and I'm excited to bring my dedication and enthusiasm to my next role.</p>
       <h2 className={introStyles.title2}>Technologies I know</h2>
       <div className={introStyles.container}>
