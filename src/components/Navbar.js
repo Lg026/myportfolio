@@ -7,9 +7,9 @@ export const Navbar = () => {
     <header>
         <nav className={navStyles.nav}>
             <ul className={navStyles.links}>
-                <li><NavLink className={navStyles.a} to='/'>Home</NavLink></li>
-                <li><NavLink className={navStyles.a} to='/projects'>Projects</NavLink></li>
-                <li><NavLink className={navStyles.a} to='/contact'>Contact</NavLink></li>
+                <li><NavLink className={navStyles.a} to='/my-portfolio/'>Home</NavLink></li>
+                <li><NavLink className={navStyles.a} to='/my-portfolio/projects'>Projects</NavLink></li>
+                <li><NavLink className={navStyles.a} to='/my-portfolio/contact'>Contact</NavLink></li>
             </ul>
         </nav>
     </header>
