@@ -67,4 +67,16 @@
         padding-top: 4rem;
     }
 
+    .desc {
+        font-size: 0.8rem;
+    }
+
+}
+
+@media (max-width: 375px) {
+
+    .desc {
+        font-size: 0.6rem;
+    }
+
 }
