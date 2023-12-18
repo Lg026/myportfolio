@@ -13,7 +13,7 @@ export const Introduction = () => {
     { name: 'Node.js', icon: faNodeJs },
     { name: 'npm', icon: faNpm },
     { name: 'MongoDB', icon: faDatabase },
-    { name: 'Restful APIs', icon: faServer }
+    { name: 'APIs', icon: faServer }
   ];
 
   return (

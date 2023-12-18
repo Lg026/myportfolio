@@ -4,21 +4,15 @@
 
 .Fimg {
     width: 100%;
-   height: 15rem;
-   border-radius: 0.2rem;
+    height: 15rem;
+    border-radius: 0.2rem;
+    cursor: pointer;
 }
 
 .Gimg {
     width: 100%;
     height: 15rem;
     border-radius: 0.2rem;
-}
-
-.Gimg:hover {
-    cursor: pointer;
-}
-
-.Fimg:hover {
     cursor: pointer;
 }
 
@@ -104,16 +98,12 @@
     }
 }
 
-/* @media (max-width: 768px) {
-    .Fimg {
-        width: 70%;
+@media (max-width: 768px) {
+    .container {
+        padding-top: 0rem;
     }
 
-    .Gimg {
-        width: 70%;
-    }
-
-} */
+}
 
 @media (max-width: 500px) {
     .card {
@@ -125,6 +115,7 @@
 @media (max-width: 425px) {
     .title {
         padding-top: 4rem;
+        font-size: 1.5rem;
     }
 
     .Gimg {
@@ -145,6 +136,11 @@
     .desc {
         font-size: 0.6rem;
     }
+
+    .title {
+        font-size: 1.3rem;
+    }
+
 }
 
 @media (max-width: 350px) {
