@@ -5,7 +5,7 @@
 
 .title2 {
     color: #22dd89;
-    padding-top: 3rem;
+    padding-top: 1rem;
 }
 
 .p {
@@ -18,13 +18,9 @@
 }
 
 .container {
-    display: flex;
-    justify-content: center;
-    padding-top: 2rem;
-}
-
-.techDiv {
-    padding: 1rem;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(80px, 1fr));
+    gap: 2rem;
 }
 
 .icons {
@@ -103,15 +99,16 @@
     }
 
     .container {
-        padding-top: 2rem;
+        grid-gap: 0.5rem;
+        margin-bottom: 1rem;
     }
 
     .techDiv {
-        font-size: 0.8rem;
+        font-size: 1rem;
     }
 
     .icons {
-        font-size: 1rem;
+        font-size: 1.5rem;
     }
 
     .p {
@@ -138,29 +135,13 @@
 
     .container {
         padding-top: 1.5rem;
-        width: 90%;
         margin: 0 auto;
-    }
-
-    .techDiv {
-        font-size: 0.5rem;
-    }
-    
-    .icons {
-        font-size: 1rem;
-    }
-}
-
-
-@media (max-width: 615px) {
-
-
-    .container {
-        flex-wrap: wrap;
-        justify-content: center;
+        grid-gap: 0.5rem;
+        padding-bottom: 1rem;
     }
 
 }
+
 
 @media (max-width: 425px) {
 
@@ -181,9 +162,16 @@
     }
 
     .container {
-        width: 90%;
         padding-top: 1.5rem;
-        font-size: 0.6rem;
+        grid-gap: 0rem;
+    }
+
+    .techDiv {
+        font-size: 0.8rem;
+    }
+
+    .icons {
+        font-size: 1.2rem;
     }
     
 }
@@ -210,5 +198,13 @@
     .title  {
         padding-top: 22%;
     }
+
+.techDiv {
+    font-size: 0.5rem;
+}
+
+.icons {
+    font-size: 1rem;
+}
 
 }
