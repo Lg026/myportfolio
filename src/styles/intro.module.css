@@ -19,17 +19,16 @@
 
 .container {
     display: flex;
-    flex-direction: column;
-    padding-top: 4rem;
+    justify-content: center;
+    padding-top: 2rem;
 }
 
-.techIcons {
+.techDiv {
+    padding: 1rem;
+}
+
+.icons {
     font-size: 2rem;
-}
-
-.techNames, .techIcons {
-    display: grid;
-    grid-template-columns: repeat(8, 1fr);
 }
 
 .techItem {
@@ -56,12 +55,13 @@
         padding-top: 4rem;
     }
 
-    .techIcons {
+    .icons {
         font-size: 4rem;
     }
 
-    .techNames {
+    .techDiv {
         font-size: 2rem;
+        padding: 2rem;
     }
 
     .container {
@@ -103,7 +103,15 @@
     }
 
     .container {
-        padding-top: 3rem;
+        padding-top: 2rem;
+    }
+
+    .techDiv {
+        font-size: 0.8rem;
+    }
+
+    .icons {
+        font-size: 1rem;
     }
 
     .p {
@@ -134,12 +142,32 @@
         margin: 0 auto;
     }
 
-    .techIcons {
-        font-size: 1.5rem;
+    .techDiv {
+        font-size: 0.5rem;
+    }
+    
+    .icons {
+        font-size: 1rem;
+    }
+}
+
+
+@media (max-width: 615px) {
+
+    .techDiv {
+        font-size: 0.5rem;
+        padding: 0.5rem;
     }
 
-    .techNames {
-        font-size: 0.8rem;
+    .icons {
+        font-size: 1rem;
+    }
+}
+
+@media (max-width: 460px) {
+
+    .techDiv {
+        padding: 0.2rem;
     }
 
 }
@@ -167,14 +195,6 @@
         padding-top: 1.5rem;
         font-size: 0.6rem;
     }
-
-    .techNames {
-        font-size: 0.6rem;
-    }
-
-    .techIcons {
-        font-size: 1.5rem;
-    }
     
 }
 
@@ -193,21 +213,24 @@
         font-size: 0.6rem;
     }
     
-    .techIcons {
-        font-size: 1rem;
+}
+
+@media (max-width: 362px) {
+
+    .techDiv {
+        font-size: 0.5rem;
+        padding: 0.1rem;
     }
 
-    .techNames {
-        font-size: 0.52rem;
+    .icons {
+        font-size: 0.7rem;
     }
+
 }
 
 @media (max-width: 320px) {
     .title  {
         padding-top: 22%;
     }
-
-    .techNames {
-        font-size: 0.45rem;
-    }
+    
 }
