@@ -154,20 +154,10 @@
 
 @media (max-width: 615px) {
 
-    .techDiv {
-        font-size: 0.5rem;
-        padding: 0.5rem;
-    }
 
-    .icons {
-        font-size: 1rem;
-    }
-}
-
-@media (max-width: 460px) {
-
-    .techDiv {
-        padding: 0.2rem;
+    .container {
+        flex-wrap: wrap;
+        justify-content: center;
     }
 
 }
@@ -215,22 +205,10 @@
     
 }
 
-@media (max-width: 362px) {
-
-    .techDiv {
-        font-size: 0.5rem;
-        padding: 0.1rem;
-    }
-
-    .icons {
-        font-size: 0.7rem;
-    }
-
-}
 
 @media (max-width: 320px) {
     .title  {
         padding-top: 22%;
     }
-    
+
 }
