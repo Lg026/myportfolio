@@ -19,7 +19,7 @@
 
 .container {
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(80px, 1fr));
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
     gap: 2rem;
 }
 
@@ -28,8 +28,6 @@
 }
 
 .techItem {
-    display: flex;
-    justify-content: center;
     margin-bottom: 1.5rem;
 }
 
@@ -65,16 +63,16 @@
     }
 }
 
-    @media (max-width: 2559px) and (min-width: 1441px) {
-        .title {
-            font-size: 2.5rem;
-            padding-top: 1%;
-        }
+@media (max-width: 2559px) and (min-width: 1441px) {
+    .title {
+        font-size: 2.5rem;
+        padding-top: 1%;
+    }
 
         .p {
-            font-size: 1.5rem;
-            padding-top: 2%;
-        }
+        font-size: 1.5rem;
+        padding-top: 2%;
+    }
 
     .title2 {
         font-size: 2rem;
@@ -138,6 +136,7 @@
         margin: 0 auto;
         grid-gap: 0.5rem;
         padding-bottom: 1rem;
+        grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
     }
 
 }
@@ -164,10 +163,11 @@
     .container {
         padding-top: 1.5rem;
         grid-gap: 0rem;
+        grid-template-columns: repeat(auto-fill, minmax(80px, 1fr));
     }
 
     .techDiv {
-        font-size: 0.8rem;
+        font-size: 0.7rem;
     }
 
     .icons {
