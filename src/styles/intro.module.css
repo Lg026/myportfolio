@@ -20,7 +20,6 @@
 .container {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
-    gap: 2rem;
 }
 
 .icons {
@@ -60,6 +59,7 @@
 
     .container {
         padding-top: 6rem;
+        grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
     }
 }
 
@@ -119,6 +119,7 @@
 
     .title {
         padding-top: 1rem;
+        font-size: 1.5rem;
     }
 
     .p {
@@ -167,11 +168,11 @@
     }
 
     .techDiv {
-        font-size: 0.7rem;
+        font-size: 0.6rem;
     }
 
     .icons {
-        font-size: 1.2rem;
+        font-size: 1rem;
     }
     
 }
@@ -185,6 +186,10 @@
 
     .title2 {
         font-size: 1rem;
+    }
+
+    .techDiv {
+        font-size: 0.6rem;
     }
 
     .p {

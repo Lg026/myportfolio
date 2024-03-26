@@ -60,7 +60,7 @@
 
 @media (max-width: 425px) {
     .nav {
-        background-color: black;
+        background-color: #FFFDFA;
         position: absolute;
         top: 0;
     }

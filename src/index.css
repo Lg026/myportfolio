@@ -4,8 +4,8 @@ body {
   box-sizing: border-box;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color: #FFFDFA;
-  color: black;
+  background-color: black;
+  color: #FFFDFA;
   font-family: Arial, Helvetica, sans-serif;
   text-align: center;
 }
