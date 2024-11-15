@@ -48,8 +48,6 @@
     cursor: pointer;
 }
 
-
-
 @media (min-width: 2560px) {
     .title {
         font-size: 3.5rem;
@@ -85,7 +83,7 @@
     }
 
     .card {
-        max-width: 40rem;
+        max-width: 28rem;
         max-height: 45rem;
     }
 
@@ -95,6 +93,18 @@
 @media (max-width: 1400px) {
     .card {
         max-height: 25rem;
+    }
+}
+
+@media (max-width: 1260px) {
+    .card {
+        max-width: 20rem;
+    }
+}
+
+@media (max-width: 1030px) {
+    .card {
+        max-width: 17rem;
     }
 }
 
