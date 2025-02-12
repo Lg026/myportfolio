@@ -19,6 +19,7 @@
 
 .container {
     display: grid;
+    padding-bottom: 3%;
     grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
 }
 
@@ -49,7 +50,7 @@
     }
 
     .icons {
-        font-size: 4rem;
+        font-size: 6rem;
     }
 
     .techDiv {
@@ -58,8 +59,9 @@
     }
 
     .container {
-        padding-top: 6rem;
         grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+        width: 80%;
+        margin: 0 auto;
     }
 }
 
@@ -81,6 +83,7 @@
 
     .container {
         padding-top: 3%;
+        padding-bottom: 3%;
         font-size: 1.5rem;
     }
 

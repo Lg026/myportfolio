@@ -4,7 +4,6 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faHtml5, faCss3Alt, faJsSquare, faReact, faNodeJs, faNpm, faPython } from '@fortawesome/free-brands-svg-icons';
 import { faDatabase, faServer, faCodeBranch } from '@fortawesome/free-solid-svg-icons';
 
-
 export const Introduction = () => {
   const techStack = [
     { name: 'HTML', icon: faHtml5 },
@@ -34,6 +33,4 @@ export const Introduction = () => {
 }
 
 export default Introduction
-
-
 
